@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #333;
+}
+
+header {
+    background-color: #007BFF; /* Brilliant Blue */
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #80D0C7; /* Light Teal */
+}
+
+section {
+    padding: 2em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home {
+    background: linear-gradient(135deg, #80D0C7, #009FFF); /* Light Teal to Bright Blue */
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#home p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+#services {
+    background-color: #ffffff; /* White */
+    text-align: center;
+    padding: 2em 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #007BFF;
+}
+
+.service {
+    background-color: #f9f9f9; /* Very Light Gray */
+    margin: 1em;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    margin-bottom: 0.5em;
+    color: #007BFF;
+}
+
+#contact {
+    background-color: #009FFF; /* Bright Blue */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1em;
+    color: #ffffff;
+}
+
+form input, form textarea {
+    padding: 0.7em;
+    margin-top: 0.5em;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #e0f7fa; /* Light Cyan */
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em 2em;
+    background-color: #007BFF; /* Brilliant Blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.9em;
+}
